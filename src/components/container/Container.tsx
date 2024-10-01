@@ -8,7 +8,7 @@ type TContainer = {
 export default function Container({ children }: TContainer) {
   return (
     <>
-      <div>{children}</div>
+      <div className="mx-10">{children}</div>
     </>
   );
 }
